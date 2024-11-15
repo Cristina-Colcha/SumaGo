@@ -63,7 +63,7 @@ func sumaHandler(w http.ResponseWriter, r *http.Request) {
 			{{end}}
 		</body>
 		</html>
-	`))
+	`)) 
 
 	// Renderizamos la plantilla con los datos
 	tmpl.Execute(w, data)
